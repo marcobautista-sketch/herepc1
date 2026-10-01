@@ -48,3 +48,7 @@ de entrada e inscripciones de participantes:
     //status:DRAFT
      //Campusevent (Academic-cultural-Sports-Technology)
     //campusevent - Status (draft,published,cancelled,finished
+    //Pruebas minimas:
+    //Prueba unitaria de RegistrationService para inscripcion exitosa, evento no publicado y entrada sin cupos
+    //@DataJpaTest para verificar la busqueda de eventos futuros y la restriccion de inscripcion unica
+    //prueba de integracion de flujo login, register, inscripccion utilizando JWT y PostgresSQL con testcontainers

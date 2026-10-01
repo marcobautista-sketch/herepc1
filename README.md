@@ -57,3 +57,5 @@ de entrada e inscripciones de participantes:
     //Usar DTOs de entrada y salida con Bean Validation; no exponer entidades JPA directamente.
     //Proteger operaciones privadas con JWT y aplicar autorizacion por rol y propiedad del evento.
     //Procesar la generacion de entradas y notificaciones mediante eventos AFTER_commit y listeners asincronicos
+
+Eso es todo benja, hazlo con eso

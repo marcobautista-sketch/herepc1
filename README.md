@@ -52,3 +52,8 @@ de entrada e inscripciones de participantes:
     //Prueba unitaria de RegistrationService para inscripcion exitosa, evento no publicado y entrada sin cupos
     //@DataJpaTest para verificar la busqueda de eventos futuros y la restriccion de inscripcion unica
     //prueba de integracion de flujo login, register, inscripccion utilizando JWT y PostgresSQL con testcontainers
+
+    //Requisitos Transversales:
+    //Usar DTOs de entrada y salida con Bean Validation; no exponer entidades JPA directamente.
+    //Proteger operaciones privadas con JWT y aplicar autorizacion por rol y propiedad del evento.
+    //Procesar la generacion de entradas y notificaciones mediante eventos AFTER_commit y listeners asincronicos

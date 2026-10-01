@@ -20,3 +20,31 @@ de entrada e inscripciones de participantes:
 
     //EventRegistration:
     //id-eventld-tyckertype-attendeeld-registeredAt-statuss-transacciones-eventos y seguridad JWT
+
+     //user:
+    //id-username-email-password-role(attendee-organizer-admin
+
+    //campusevent:
+    //id-organizerld-tittle-description-category-eventDate-location-status
+
+    //TickerType:
+    //id-event-name-capacity-registeredCount-status
+
+    //EventRegistration:
+    //id-eventld-tyckertype-attendeeld-registeredAt-statu
+    
+
+       //title:"Feria de Poryectos CS"
+    //Description: "Presentacion de proyectos estudiantiles"
+    //category:"TECHNOLOGY
+    //eventDate: 2026-10-20T16:00:00-05:00
+    //location: "Auditorio UTEC"
+
+
+    //Response DTO
+    //organizerUsername:
+    //tittle:Feria de proyectos CS
+    //Category: TECHNOLOGY
+    //status:DRAFT
+     //Campusevent (Academic-cultural-Sports-Technology)
+    //campusevent - Status (draft,published,cancelled,finished
